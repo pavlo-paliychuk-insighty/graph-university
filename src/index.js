@@ -1,21 +1,7 @@
-import d3 from "d3";
-window.d3 = d3;
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
 
-const functionPlot = require("function-plot");
-
-const root = document.querySelector("#root");
-
-functionPlot({
-  target: root,
-  grid: true,
-  data: [
-    {
-      x: "t * cos(t)",
-      y: "t * sin(t)",
-      range: [0, 4 * Math.PI],
-      fnType: "parametric",
-      graphType: "polyline"
-    }
-  ]
-});
-
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
