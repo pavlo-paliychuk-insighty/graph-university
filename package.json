@@ -1,9 +1,9 @@
 {
-  "name": "function-plot",
+  "name": "graph-university",
   "version": "1.0.0",
-  "description": "https://mauriciopoppe.github.io/function-plot/",
+  "description": "http://pavlo-paliychuk-insighty.github.io/graph-university",
   "keywords": [],
-  "homepage": "https://codesandbox.io/s/new",
+  "homepage": "http://pavlo-paliychuk-insighty.github.io/graph-university",
   "main": "src/index.js",
   "dependencies": {
     "d3": "3.5.17",
