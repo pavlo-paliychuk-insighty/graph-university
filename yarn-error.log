@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn satart
+  /usr/local/bin/node /usr/local/bin/yarn satrt
 
 PATH: 
   /Users/pavlo/code/google-cloud-sdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin
@@ -15,11 +15,11 @@ Platform:
 
 npm manifest: 
   {
-    "name": "function-plot",
+    "name": "graph-university",
     "version": "1.0.0",
-    "description": "https://mauriciopoppe.github.io/function-plot/",
+    "description": "http://pavlo-paliychuk-insighty.github.io/graph-university",
     "keywords": [],
-    "homepage": "https://codesandbox.io/s/new",
+    "homepage": "http://pavlo-paliychuk-insighty.github.io/graph-university",
     "main": "src/index.js",
     "dependencies": {
       "d3": "3.5.17",
@@ -7375,7 +7375,7 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: Command "satart" not found. Did you mean "start"?
+  Error: Command "satrt" not found.
       at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
       at /usr/local/lib/node_modules/yarn/lib/cli.js:87307:17
       at Generator.next (<anonymous>)
